@@ -1,0 +1,11 @@
+{
+  "name": "energyvault",
+  "version": "1.0.0",
+  "description": "储能技术前沿洞察 - Energy Storage Technology Insights",
+  "scripts": {
+    "start": "npx serve . -p 3000 --no-clipboard",
+    "dev": "npx serve . -p 3000 --no-clipboard"
+  },
+  "keywords": ["energy-storage", "battery", "technology"],
+  "license": "MIT"
+}
