@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>压缩空气储能 (CAES) — PowerStorage</title>
+<meta name="description" content="中国领跑全球A-CAES：能建数科300MW电站投运、中电建肥城5GW基地规划、系统效率70%+全球最高。从盐穴到人工硐室，CAES正成为长时储能重要选择。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="/index.html" class="logo">
+      <svg class="logo-svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect x="2" y="8" width="8" height="16" rx="2" fill="currentColor" opacity="0.4"/>
+        <rect x="12" y="4" width="8" height="20" rx="2" fill="currentColor" opacity="0.7"/>
+        <rect x="22" y="10" width="4" height="14" rx="1" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">PowerStorage</span>
+      <span class="logo-domain">.cn</span>
+    </a>
+    <nav class="topbar-nav">
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">技术路线 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/technologies/overview.html">技术全景图</a>
+          <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+          <a href="/articles/technologies/solid-state.html">固态电池</a>
+          <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+          <a href="/articles/technologies/flow-battery.html">液流电池</a>
+          <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+          <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+          <a href="/articles/technologies/hydrogen.html">氢储能</a>
+          <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+          <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+          <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">政策研究 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/policies/china-national.html">国家政策</a>
+          <a href="/articles/policies/china-local.html">地方规划</a>
+          <a href="/articles/policies/overseas-policies.html">海外对比</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">项目与市场 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+          <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+          <a href="/articles/market/trends-2026.html">市场与趋势</a>
+          <a href="/articles/market/investment-financing.html">投融资趋势</a>
+        </div>
+      </div>
+    </nav>
+    <div class="topbar-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-nav-section"><h3>技术路线</h3>
+      <a href="/articles/technologies/overview.html">技术全景图</a>
+      <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+      <a href="/articles/technologies/solid-state.html">固态电池</a>
+      <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+      <a href="/articles/technologies/flow-battery.html">液流电池</a>
+      <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+      <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+      <a href="/articles/technologies/hydrogen.html">氢储能</a>
+      <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+      <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+      <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+    </div>
+    <div class="mobile-nav-section"><h3>政策研究</h3>
+      <a href="/articles/policies/china-national.html">国家政策</a>
+      <a href="/articles/policies/china-local.html">地方规划</a>
+      <a href="/articles/policies/overseas-policies.html">海外对比</a>
+    </div>
+    <div class="mobile-nav-section"><h3>项目与市场</h3>
+      <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+      <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+      <a href="/articles/market/trends-2026.html">市场与趋势</a>
+      <a href="/articles/market/investment-financing.html">投融资趋势</a>
+    </div>
+  </div>
+</div>
+<div class="mobile-drawer-overlay" id="mobileOverlay"></div>
+<main class="main">
+  <div class="breadcrumbs">
+    <a href="/index.html">首页</a><span class="sep">/</span>
+    <a href="/index.html#technologies">技术路线</a><span class="sep">/</span>
+    <span class="current">压缩空气储能 (CAES)</span>
+  </div>
+  <div class="content"><h1>压缩空气储能 (CAES)</h1>
+<blockquote>
+<p>2026年，压缩空气储能迎来重大增长拐点。中国在A-CAES领域实现从跟跑到领跑：能建数科湖北应城300MW电站投运、中电建山东肥城300MW项目并网，多个GW级项目进入规划。国际上Hydrostor的500MW/4GWh Willow Rock项目获CEC审批，A-CAES正式进入GW级商业化时代。</p>
+</blockquote>
+<div class="stats-banner"><div class="stat-card accent"><div class="stat-value">300MW</div><div class="stat-label">能建应城电站单机容量</div></div><div class="stat-card green"><div class="stat-value">5GW</div><div class="stat-label">中电建肥城基地总规划</div></div><div class="stat-card purple"><div class="stat-value">70%+</div><div class="stat-label">A-CAES 系统效率（全球最高）</div></div></div>
+
+<hr>
+<h2>技术原理</h2>
+<h3>传统CAES (D-CAES)</h3>
+<ol>
+<li><strong>储能</strong>：用电低谷时压缩空气，存入地下洞穴（盐穴、硬岩洞穴）</li>
+<li><strong>释能</strong>：用电高峰时释放压缩空气，经天然气补燃后驱动透平发电</li>
+<li><strong>局限</strong>：依赖天然气补燃，有碳排放</li>
+</ol>
+<h3>先进绝热CAES (A-CAES)</h3>
+<ol>
+<li>压缩过程中产生的<strong>热量被捕获并储存</strong>（热储能系统）</li>
+<li>释能时用储存的热量加热空气，<strong>无需天然气</strong></li>
+<li>零碳排放，效率提升至60-70%</li>
+</ol>
+<hr>
+<h2>中国CAES项目全景</h2>
+<h3>一、中国能建数科集团</h3>
+<p>中国能建是全球压缩空气储能领域的领跑者，目前已形成从10MW到300MW+的完整技术梯队，正在推动600MW级和GW级技术研发。</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>地点</th>
+<th>规模</th>
+<th>状态</th>
+<th>亮点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>湖北应城</strong></td>
+<td>湖北孝感应城</td>
+<td>300MW/1500MWh</td>
+<td>2024年4月并网</td>
+<td>世界首个300MW级A-CAES电站</td>
+</tr>
+<tr>
+<td><strong>甘肃酒泉</strong></td>
+<td>甘肃酒泉玉门</td>
+<td>300MW/1800MWh</td>
+<td>2025年投运</td>
+<td>全球首个人工硐室储气A-CAES</td>
+</tr>
+<tr>
+<td><strong>山东泰安</strong></td>
+<td>山东泰安肥城</td>
+<td>350MW/1400MWh</td>
+<td>2026年在建</td>
+<td>世界单机容量最大A-CAES</td>
+</tr>
+<tr>
+<td><strong>辽宁朝阳</strong></td>
+<td>辽宁朝阳</td>
+<td>300MW/1500MWh</td>
+<td>2026年在建</td>
+<td>东北首个大型CAES项目</td>
+</tr>
+<tr>
+<td><strong>湖南岳阳</strong></td>
+<td>湖南岳阳</td>
+<td>300MW/1500MWh</td>
+<td>2025年开工</td>
+<td>中南地区首个大型CAES</td>
+</tr>
+<tr>
+<td><strong>新疆哈密</strong></td>
+<td>新疆哈密</td>
+<td>300MW/1200MWh</td>
+<td>规划中</td>
+<td>戈壁新能源基地配储</td>
+</tr>
+</tbody></table>
+<p><strong>技术特色</strong>：</p>
+<ul>
+<li>拥有完全自主知识产权的300MW级压缩空气储能系统</li>
+<li>系统综合效率达 <strong>70%+</strong>（全球最高水平）</li>
+<li>单机功率从10MW→100MW→300MW→正在攻关600MW</li>
+<li>储气方式：盐穴（应城、泰安）、人工硐室（酒泉）、废弃矿井（部分项目）</li>
+<li>中国能建计划到2030年建设投运超过<strong>30GW</strong>压缩空气储能</li>
+</ul>
+<h3>二、中国电建</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>地点</th>
+<th>规模</th>
+<th>状态</th>
+<th>亮点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>山东肥城二期</strong></td>
+<td>山东泰安肥城</td>
+<td>300MW/1800MWh</td>
+<td>2025年并网</td>
+<td>利用废弃盐穴，总规划5GW</td>
+</tr>
+<tr>
+<td><strong>河南平顶山</strong></td>
+<td>河南平顶山</td>
+<td>300MW/1500MWh</td>
+<td>2026年在建</td>
+<td>盐穴储气，配套新能源基地</td>
+</tr>
+<tr>
+<td><strong>湖北大冶</strong></td>
+<td>湖北黄石大冶</td>
+<td>100MW/500MWh</td>
+<td>2025年投运</td>
+<td>废弃矿井储气示范</td>
+</tr>
+</tbody></table>
+<p><strong>中电建肥城盐穴储能基地规划</strong>：</p>
+<ul>
+<li>肥城拥有全国最大的岩盐矿床之一，已探明盐穴空间超<strong>5000万m³</strong></li>
+<li>规划总装机 <strong>5GW</strong>，分三期建设</li>
+<li>一期（200MW）+ 二期（300MW）已投运/在建，三期规划3GW+</li>
+<li>打造&quot;盐穴储能+盐化工+新能源&quot;产业集群</li>
+</ul>
+<h3>三、中科院工程热物理研究所</h3>
+<p>中科院工热所是中国A-CAES技术的奠基者，为能建、电建项目提供核心技术支撑：</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>地点</th>
+<th>规模</th>
+<th>状态</th>
+<th>里程碑意义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>山东肥城一期</strong></td>
+<td>山东泰安</td>
+<td>10MW</td>
+<td>2021年投运</td>
+<td>中国首个A-CAES示范项目</td>
+</tr>
+<tr>
+<td><strong>张家口</strong></td>
+<td>河北张家口</td>
+<td>100MW</td>
+<td>2022年投运</td>
+<td>世界首个100MW A-CAES</td>
+</tr>
+<tr>
+<td><strong>贵州毕节</strong></td>
+<td>贵州毕节</td>
+<td>10MW</td>
+<td>2023年投运</td>
+<td>喀斯特地貌储气验证</td>
+</tr>
+</tbody></table>
+<h3>四、其他企业项目</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>企业</th>
+<th>地点</th>
+<th>规模</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>江苏金坛</strong></td>
+<td>中盐集团+华能</td>
+<td>江苏常州金坛</td>
+<td>60MW/300MWh</td>
+<td>2022年投运</td>
+</tr>
+<tr>
+<td><strong>金坛二期</strong></td>
+<td>中盐集团</td>
+<td>江苏常州金坛</td>
+<td>200MW/1000MWh</td>
+<td>规划中</td>
+</tr>
+<tr>
+<td><strong>宁夏盐池</strong></td>
+<td>国家能源集团</td>
+<td>宁夏吴忠盐池</td>
+<td>200MW/800MWh</td>
+<td>前期工作</td>
+</tr>
+<tr>
+<td><strong>陕西榆林</strong></td>
+<td>陕煤集团</td>
+<td>陕西榆林</td>
+<td>300MW/1500MWh</td>
+<td>规划中</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>中国CAES产业优势</h2>
+<h3>技术领先</h3>
+<ul>
+<li>中国是全球唯一实现<strong>300MW级A-CAES商业化运行</strong>的国家</li>
+<li>系统效率70%+领跑全球（国际水平约60-65%）</li>
+<li>拥有盐穴/人工硐室/废弃矿井三大储气技术路线</li>
+</ul>
+<h3>资源禀赋</h3>
+<ul>
+<li><strong>盐穴资源</strong>：中国拥有丰富的盐矿资源，已探明废弃盐穴空间超<strong>1亿m³</strong>，主要分布在山东、江苏、湖北、河南等地</li>
+<li><strong>废弃矿井</strong>：全国废弃矿井超<strong>1.2万座</strong>，可利用空间巨大</li>
+<li><strong>硬岩地质</strong>：西部山区适合人工硐室建设</li>
+</ul>
+<h3>政策支持</h3>
+<ul>
+<li>2026年&quot;十五五&quot;规划：压缩空气储能列为新型储能重点方向</li>
+<li>国家能源局：鼓励利用盐穴、废弃矿井建设大规模压缩空气储能</li>
+<li>多个省份将CAES纳入新能源配储优选方案</li>
+<li>2026年工信部质量监督大纲：首次涵盖压缩空气储能全生命周期质量体系</li>
+</ul>
+<h3>产业链</h3>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>代表企业</th>
+<th>能力</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>系统设计与EPC</strong></td>
+<td>中国能建、中国电建</td>
+<td>300MW级EPC总包</td>
+</tr>
+<tr>
+<td><strong>核心设备</strong></td>
+<td>沈鼓集团、杭氧股份</td>
+<td>大型压缩机/透平膨胀机</td>
+</tr>
+<tr>
+<td><strong>储热系统</strong></td>
+<td>西子洁能、首航高科</td>
+<td>高温储热装置</td>
+</tr>
+<tr>
+<td><strong>地下工程</strong></td>
+<td>中科院武汉岩土所</td>
+<td>盐穴稳定性评估与改造</td>
+</tr>
+<tr>
+<td><strong>智能控制</strong></td>
+<td>中科院工热所、能建数科</td>
+<td>电站智能调度系统</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>国际CAES动态</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>地点</th>
+<th>规模</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Willow Rock</strong></td>
+<td>加州，美国</td>
+<td>500MW / 4GWh</td>
+<td>2025年获CEC审批，2026年可开工</td>
+</tr>
+<tr>
+<td><strong>Quinte</strong></td>
+<td>安大略，加拿大</td>
+<td>500MW / 8GWh</td>
+<td>2026年启动许可程序</td>
+</tr>
+<tr>
+<td><strong>Marguerite Lake</strong></td>
+<td>艾伯塔，加拿大</td>
+<td>640MW放电/30.72GWh</td>
+<td>已获监管审批</td>
+</tr>
+<tr>
+<td><strong>Augwind AirBattery</strong></td>
+<td>德国</td>
+<td>3-8GWh/洞穴</td>
+<td>2028年目标投运</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>CAES vs 抽水蓄能</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>A-CAES</th>
+<th>抽水蓄能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>地理限制</strong></td>
+<td>低（盐穴+矿井+硐室）</td>
+<td>高（需高差+水源）</td>
+</tr>
+<tr>
+<td><strong>建设周期</strong></td>
+<td>2-4年</td>
+<td>6-10年</td>
+</tr>
+<tr>
+<td><strong>效率</strong></td>
+<td>60-70%</td>
+<td>70-85%</td>
+</tr>
+<tr>
+<td><strong>水资源</strong></td>
+<td>一次性填充（不消耗）</td>
+<td>持续蒸发损耗</td>
+</tr>
+<tr>
+<td><strong>环保争议</strong></td>
+<td>低</td>
+<td>生态淹没争议</td>
+</tr>
+<tr>
+<td><strong>投资成本</strong></td>
+<td>¥5000-7000/kW</td>
+<td>¥6000-8000/kW</td>
+</tr>
+<tr>
+<td><strong>运营寿命</strong></td>
+<td>30-50年</td>
+<td>50-100年</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2026年趋势展望</h2>
+<table>
+<thead>
+<tr>
+<th>趋势</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>规模化加速</strong></td>
+<td>中国多个300MW项目投运/在建，600MW级进入研发阶段</td>
+</tr>
+<tr>
+<td><strong>成本下降</strong></td>
+<td>规模化+国产化推动度电成本从¥0.35→目标¥0.20/kWh</td>
+</tr>
+<tr>
+<td><strong>盐穴资源争夺</strong></td>
+<td>山东、湖北、江苏盐穴成为稀缺资源，地方政府加速勘探</td>
+</tr>
+<tr>
+<td><strong>GW级规划</strong></td>
+<td>山东肥城规划5GW、湖北应城规划2GW、多地GW级基地启动</td>
+</tr>
+<tr>
+<td><strong>技术出海</strong></td>
+<td>中国能建/电建CAES技术开始向&quot;一带一路&quot;国家输出</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>中国在压缩空气储能领域已实现从&quot;跟跑&quot;到&quot;领跑&quot;的跨越。300MW级商业化运行、70%+系统效率、三大储气路线并行——这些成就使得中国成为全球CAES产业的绝对中心。随着山东肥城5GW级基地和能建数科30GW规划推进，压缩空气储能有望成为继抽水蓄能之后，中国第二大长时储能技术路线。</p>
+</blockquote>
+</div>
+  <div class="article-footer"><hr>
+    <div class="article-meta-grid">
+      <div class="article-meta-item"><span class="article-meta-label">发布日期</span><time datetime="2026-06-15">2026/06/15</time></div>
+      <div class="article-meta-item"><span class="article-meta-label">分类</span><span>技术路线</span></div>
+    </div>
+    <a href="/index.html" class="back-link">← 返回首页</a>
+  </div>
+  <div class="related-articles">
+    <h3>相关文章</h3>
+    <div class="related-grid"><a href="/articles/technologies/overview.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">储能技术全景图</div></a><a href="/articles/technologies/lithium-ion.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">锂离子电池储能</div></a><a href="/articles/technologies/solid-state.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">固态电池储能</div></a></div>
+  </div>
+</main><footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo"><span class="gradient">PowerStorage</span>.cn</span>
+      <p>AI 驱动 · 定期检索更新 · 储能技术前沿洞察</p>
+    </div>
+    <div class="footer-meta">
+      <span>数据更新：2026年5月</span>
+      <span class="footer-dot"></span>
+      <span>内容由 AI 辅助生成</span>
+    </div>
+  </div>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

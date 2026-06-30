@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>铁-空气电池储能 — PowerStorage</title>
+<meta name="description" content="100小时+持续放电时长，铁-空气电池正从概念走向商业部署。Form Energy引领长时储能革命，Google签约30GWh储能容量。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="/index.html" class="logo">
+      <svg class="logo-svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect x="2" y="8" width="8" height="16" rx="2" fill="currentColor" opacity="0.4"/>
+        <rect x="12" y="4" width="8" height="20" rx="2" fill="currentColor" opacity="0.7"/>
+        <rect x="22" y="10" width="4" height="14" rx="1" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">PowerStorage</span>
+      <span class="logo-domain">.cn</span>
+    </a>
+    <nav class="topbar-nav">
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">技术路线 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/technologies/overview.html">技术全景图</a>
+          <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+          <a href="/articles/technologies/solid-state.html">固态电池</a>
+          <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+          <a href="/articles/technologies/flow-battery.html">液流电池</a>
+          <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+          <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+          <a href="/articles/technologies/hydrogen.html">氢储能</a>
+          <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+          <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+          <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">政策研究 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/policies/china-national.html">国家政策</a>
+          <a href="/articles/policies/china-local.html">地方规划</a>
+          <a href="/articles/policies/overseas-policies.html">海外对比</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">项目与市场 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+          <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+          <a href="/articles/market/trends-2026.html">市场与趋势</a>
+          <a href="/articles/market/investment-financing.html">投融资趋势</a>
+        </div>
+      </div>
+    </nav>
+    <div class="topbar-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-nav-section"><h3>技术路线</h3>
+      <a href="/articles/technologies/overview.html">技术全景图</a>
+      <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+      <a href="/articles/technologies/solid-state.html">固态电池</a>
+      <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+      <a href="/articles/technologies/flow-battery.html">液流电池</a>
+      <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+      <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+      <a href="/articles/technologies/hydrogen.html">氢储能</a>
+      <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+      <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+      <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+    </div>
+    <div class="mobile-nav-section"><h3>政策研究</h3>
+      <a href="/articles/policies/china-national.html">国家政策</a>
+      <a href="/articles/policies/china-local.html">地方规划</a>
+      <a href="/articles/policies/overseas-policies.html">海外对比</a>
+    </div>
+    <div class="mobile-nav-section"><h3>项目与市场</h3>
+      <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+      <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+      <a href="/articles/market/trends-2026.html">市场与趋势</a>
+      <a href="/articles/market/investment-financing.html">投融资趋势</a>
+    </div>
+  </div>
+</div>
+<div class="mobile-drawer-overlay" id="mobileOverlay"></div>
+<main class="main">
+  <div class="breadcrumbs">
+    <a href="/index.html">首页</a><span class="sep">/</span>
+    <a href="/index.html#technologies">技术路线</a><span class="sep">/</span>
+    <span class="current">铁-空气电池储能</span>
+  </div>
+  <div class="content"><h1>铁-空气电池：长时储能的破局者</h1>
+<blockquote>
+<p>2026年，铁-空气电池从示范验证走向大规模商业部署。Form Energy商业管道突破75GWh，签约Google/Xcel 30GWh全球最大储能项目，并与Crusoe签署12GWh AI数据中心储能协议。</p>
+</blockquote>
+<div class="stats-banner"><div class="stat-card accent"><div class="stat-value">100h+</div><div class="stat-label">持续放电时长</div></div><div class="stat-card green"><div class="stat-value">30GWh</div><div class="stat-label">Google 签约储能容量</div></div><div class="stat-card purple"><div class="stat-value">$6/kW</div><div class="stat-label">度电成本目标</div></div></div>
+
+<hr>
+<h2>工作原理：可逆的生锈</h2>
+<p>铁-空气电池的核心是<strong>可逆氧化反应</strong>：</p>
+<ul>
+<li><strong>放电</strong>：电池吸入氧气 → 铁氧化成铁锈 → 释放电子（化学能→电能）</li>
+<li><strong>充电</strong>：电流将铁锈还原为铁 → 释放氧气（电能→化学能）</li>
+</ul>
+<p>使用材料：<strong>铁粒 + 水系电解液 + 空气</strong>——均为丰富、无毒、不可燃的物质。</p>
+<hr>
+<h2>Form Energy：行业领跑者</h2>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>详情</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>融资总额</strong></td>
+<td>&gt;12亿美元（Bill Gates, Jeff Bezos, GE Vernova, T. Rowe Price等）</td>
+</tr>
+<tr>
+<td><strong>最新融资</strong></td>
+<td>2026年$4.05亿融资轮（T. Rowe Price领投，GE Vernova参投）</td>
+</tr>
+<tr>
+<td><strong>首座工厂</strong></td>
+<td>西弗吉尼亚州Weirton Form Factory 1，2026年进入商业生产</td>
+</tr>
+<tr>
+<td><strong>产能目标</strong></td>
+<td>2028年年产500MW</td>
+</tr>
+<tr>
+<td><strong>成本</strong></td>
+<td>~$20/kWh（约为锂电多日方案的1/3）</td>
+</tr>
+<tr>
+<td><strong>效率</strong></td>
+<td>约50-60%（往返效率）</td>
+</tr>
+<tr>
+<td><strong>商业管道</strong></td>
+<td><strong>75GWh+</strong></td>
+</tr>
+</tbody></table>
+<h3>2026年重大商业协议</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>规模</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Google + Xcel Energy</strong></td>
+<td>300MW / 30GWh</td>
+<td>已签约，全球最大电池项目（按能量容量），2028年交付</td>
+</tr>
+<tr>
+<td><strong>Crusoe (AI数据中心)</strong></td>
+<td>12GWh</td>
+<td>CERAWeek 2026签署，2027年起供货</td>
+</tr>
+<tr>
+<td><strong>Great River Energy (明尼苏达)</strong></td>
+<td>1.5MW 试点</td>
+<td>2026年投入商业运行</td>
+</tr>
+<tr>
+<td><strong>FuturEnergy Ireland</strong></td>
+<td>10MW / 1GWh</td>
+<td>首个国际项目，目标2029年投运</td>
+</tr>
+<tr>
+<td><strong>New York/Georgia/Virginia</strong></td>
+<td>多个项目</td>
+<td>2026年陆续部署</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>竞争格局</h2>
+<ul>
+<li><strong>Meine Electric</strong>（印度）：75万美元Pre-Seed轮，目标16-24小时系统，2027年集装箱化</li>
+<li><strong>Ore Energy</strong>（荷兰）：与法国EDF合作展示100小时铁-空气示范项目</li>
+</ul>
+<hr>
+<h2>核心优势与挑战</h2>
+<p><strong>优势</strong>：</p>
+<ul>
+<li>100+小时超长时储能，完美匹配多日可再生能源波动</li>
+<li>原料丰富（铁、水、空气）、低成本、安全不可燃</li>
+<li>可复用退役火电厂电网接入设施</li>
+<li>与锂电互补：锂电覆盖2-4小时短时，铁-空气覆盖100+小时长时</li>
+</ul>
+<p><strong>挑战</strong>：</p>
+<ul>
+<li>往返效率偏低（50-60% vs 锂电85-95%）</li>
+<li>功率密度较低，不适合短时高频场景</li>
+<li>规模化制造工艺仍在成熟过程中</li>
+<li>大型合同从备忘录转为确定性订单的执行风险</li>
+</ul>
+<blockquote>
+<p>铁-空气电池的定位不是替代锂电，而是填补<strong>100小时级长时储能</strong>的市场空白。当可再生能源渗透率突破临界点、AI数据中心需要24/7清洁电力时，这类技术的价值将呈指数增长。2026年，Form Energy正将铁-空气电池从&quot;技术故事&quot;变为&quot;交付承诺&quot;。</p>
+</blockquote>
+</div>
+  <div class="article-footer"><hr>
+    <div class="article-meta-grid">
+      <div class="article-meta-item"><span class="article-meta-label">发布日期</span><time datetime="2026-05-20">2026/05/20</time></div>
+      <div class="article-meta-item"><span class="article-meta-label">分类</span><span>技术路线</span></div>
+    </div>
+    <a href="/index.html" class="back-link">← 返回首页</a>
+  </div>
+  <div class="related-articles">
+    <h3>相关文章</h3>
+    <div class="related-grid"><a href="/articles/technologies/overview.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">储能技术全景图</div></a><a href="/articles/technologies/lithium-ion.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">锂离子电池储能</div></a><a href="/articles/technologies/solid-state.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">固态电池储能</div></a></div>
+  </div>
+</main><footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo"><span class="gradient">PowerStorage</span>.cn</span>
+      <p>AI 驱动 · 定期检索更新 · 储能技术前沿洞察</p>
+    </div>
+    <div class="footer-meta">
+      <span>数据更新：2026年5月</span>
+      <span class="footer-dot"></span>
+      <span>内容由 AI 辅助生成</span>
+    </div>
+  </div>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

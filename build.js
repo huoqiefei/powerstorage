@@ -34,8 +34,13 @@ const ARTICLE_MANIFEST = [
 ];
 
 // ============ Output directory ============
-const OUT_DIR = path.join(__dirname, 'articles');
-if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
+const PUBLIC_DIR = path.join(__dirname, 'public');
+const OUT_DIR = path.join(PUBLIC_DIR, 'articles');
+
+// Clean and recreate public/
+if (fs.existsSync(PUBLIC_DIR)) fs.rmSync(PUBLIC_DIR, { recursive: true });
+fs.mkdirSync(PUBLIC_DIR, { recursive: true });
+fs.mkdirSync(OUT_DIR, { recursive: true });
 
 // ============ Shared UI components (root-relative paths) ============
 function header(currentPath = null) {
@@ -233,16 +238,48 @@ function generateArticle(article) {
 // ============ Main ============
 console.log('\n🔋 PowerStorage.cn — Build\n==============================\n');
 
+// Clean public/ directory
+console.log('Setting up public/ ...');
+
+// Copy static assets
+const copyDir = (src, dest) => {
+  if (!fs.existsSync(dest)) fs.mkdirSync(dest, { recursive: true });
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+  entries.forEach(entry => {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    if (entry.isDirectory()) {
+      copyDir(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  });
+};
+
+// Copy css/ to public/css/
+console.log('  Copying css/ ...');
+copyDir(path.join(__dirname, 'css'), path.join(PUBLIC_DIR, 'css'));
+
+// Copy js/ to public/js/
+console.log('  Copying js/ ...');
+copyDir(path.join(__dirname, 'js'), path.join(PUBLIC_DIR, 'js'));
+
+// Copy index.html to public/
+console.log('  Copying index.html ...');
+fs.copyFileSync(path.join(__dirname, 'index.html'), path.join(PUBLIC_DIR, 'index.html'));
+
+// Generate article pages
+console.log('\nGenerating article pages...');
 let ok = 0, fail = 0;
 ARTICLE_MANIFEST.forEach(a => { if (generateArticle(a)) ok++; else fail++; });
 
-console.log(`Done! ${ok} pages generated, ${fail} failed.`);
-console.log(`Output: ${path.relative(__dirname, OUT_DIR)}/\n`);
+console.log(`\nDone! ${ok} pages generated, ${fail} failed.`);
+console.log(`Output: ${path.relative(__dirname, PUBLIC_DIR)}/\n`);
 
-// Export manifest for use by index
+// Export manifest for use by index (in public/js/)
 fs.writeFileSync(
-  path.join(__dirname, 'js', 'manifest.json'),
+  path.join(PUBLIC_DIR, 'js', 'manifest.json'),
   JSON.stringify(ARTICLE_MANIFEST, null, 2),
   'utf-8'
 );
-console.log('Manifest exported to js/manifest.json\n');
+console.log('Manifest exported to public/js/manifest.json\n');

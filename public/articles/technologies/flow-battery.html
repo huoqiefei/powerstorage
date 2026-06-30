@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>液流电池储能 — PowerStorage</title>
+<meta name="description" content="液流电池以20000+次循环寿命和安全优势脱颖而出。锌基技术突破和全钒液流电池推动成本下降，EOS Energy 8GWh产能目标在望。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="/index.html" class="logo">
+      <svg class="logo-svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect x="2" y="8" width="8" height="16" rx="2" fill="currentColor" opacity="0.4"/>
+        <rect x="12" y="4" width="8" height="20" rx="2" fill="currentColor" opacity="0.7"/>
+        <rect x="22" y="10" width="4" height="14" rx="1" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">PowerStorage</span>
+      <span class="logo-domain">.cn</span>
+    </a>
+    <nav class="topbar-nav">
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">技术路线 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/technologies/overview.html">技术全景图</a>
+          <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+          <a href="/articles/technologies/solid-state.html">固态电池</a>
+          <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+          <a href="/articles/technologies/flow-battery.html">液流电池</a>
+          <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+          <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+          <a href="/articles/technologies/hydrogen.html">氢储能</a>
+          <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+          <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+          <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">政策研究 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/policies/china-national.html">国家政策</a>
+          <a href="/articles/policies/china-local.html">地方规划</a>
+          <a href="/articles/policies/overseas-policies.html">海外对比</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">项目与市场 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+          <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+          <a href="/articles/market/trends-2026.html">市场与趋势</a>
+          <a href="/articles/market/investment-financing.html">投融资趋势</a>
+        </div>
+      </div>
+    </nav>
+    <div class="topbar-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-nav-section"><h3>技术路线</h3>
+      <a href="/articles/technologies/overview.html">技术全景图</a>
+      <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+      <a href="/articles/technologies/solid-state.html">固态电池</a>
+      <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+      <a href="/articles/technologies/flow-battery.html">液流电池</a>
+      <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+      <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+      <a href="/articles/technologies/hydrogen.html">氢储能</a>
+      <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+      <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+      <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+    </div>
+    <div class="mobile-nav-section"><h3>政策研究</h3>
+      <a href="/articles/policies/china-national.html">国家政策</a>
+      <a href="/articles/policies/china-local.html">地方规划</a>
+      <a href="/articles/policies/overseas-policies.html">海外对比</a>
+    </div>
+    <div class="mobile-nav-section"><h3>项目与市场</h3>
+      <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+      <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+      <a href="/articles/market/trends-2026.html">市场与趋势</a>
+      <a href="/articles/market/investment-financing.html">投融资趋势</a>
+    </div>
+  </div>
+</div>
+<div class="mobile-drawer-overlay" id="mobileOverlay"></div>
+<main class="main">
+  <div class="breadcrumbs">
+    <a href="/index.html">首页</a><span class="sep">/</span>
+    <a href="/index.html#technologies">技术路线</a><span class="sep">/</span>
+    <span class="current">液流电池储能</span>
+  </div>
+  <div class="content"><h1>液流电池储能</h1>
+<blockquote>
+<p>液流电池以&quot;功率与能量解耦&quot;的独特优势，在4-12小时的中长时储能领域占据差异化竞争位置。2026年，锌基液流和全钒液流是两条主流路线，铁-铬液流加速产业化。</p>
+</blockquote>
+<div class="stats-banner"><div class="stat-card accent"><div class="stat-value">20000+</div><div class="stat-label">液流电池循环寿命 (次)</div></div><div class="stat-card green"><div class="stat-value">8GWh</div><div class="stat-label">EOS Energy 产能目标</div></div><div class="stat-card purple"><div class="stat-value">$218</div><div class="stat-label">目标度电成本 (/kWh)</div></div></div>
+
+<hr>
+<h2>工作原理</h2>
+<p>液流电池将能量储存在外部储罐的液态电解质中：</p>
+<ul>
+<li><strong>放电</strong>：正负极电解液通过电堆 → 发生氧化还原反应 → 输出电能</li>
+<li>**功率（电堆大小）<strong>与</strong>容量（储罐体积）**独立设计</li>
+</ul>
+<p>主流化学体系：</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>特点</th>
+<th>成熟度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>全钒液流</strong>（VFB）</td>
+<td>寿命长、无交叉污染</td>
+<td>商用（中国主导）</td>
+</tr>
+<tr>
+<td><strong>锌-溴液流</strong></td>
+<td>能量密度较高</td>
+<td>早期商用</td>
+</tr>
+<tr>
+<td><strong>锌-空气液流</strong></td>
+<td>低成本、长寿命</td>
+<td>快速成长</td>
+</tr>
+<tr>
+<td><strong>铁-铬液流</strong></td>
+<td>原料丰富、低成本</td>
+<td>示范→早期商用</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>锌基液流：EOS Energy崛起</h2>
+<p>美国 EOS Energy 是2026年最受关注的液流电池企业：</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>数据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>2025 Q4营收</strong></td>
+<td>5800万美元（历史新高）</td>
+</tr>
+<tr>
+<td><strong>2026营收预期</strong></td>
+<td>同比增长3-4倍</td>
+</tr>
+<tr>
+<td><strong>在手订单</strong></td>
+<td>2.4亿美元 / 1.1GWh</td>
+</tr>
+<tr>
+<td><strong>平均售价</strong></td>
+<td>~$251/kWh（趋向$218/kWh）</td>
+</tr>
+<tr>
+<td><strong>产能目标</strong></td>
+<td>8GWh</td>
+</tr>
+</tbody></table>
+<p>EOS新一代**&quot;Indensity&quot;**平台目标：<strong>1GWh/英亩</strong>的极致空间效率。</p>
+<hr>
+<h2>全钒液流：中国引领</h2>
+<p>中国在全钒液流电池领域技术领先：</p>
+<ul>
+<li>大连200MW/800MWh全钒液流电站——全球最大同类项目</li>
+<li>多个百MW级项目在新疆、辽宁等地建设</li>
+<li>中国掌握全球80%以上钒资源加工产能</li>
+</ul>
+<p>西班牙：欧洲最大科研级全钒液流项目（1MW/8MWh）完成测试。</p>
+<hr>
+<h2>2026年新趋势：铁-铬液流加速</h2>
+<p>铁-铬液流电池以<strong>铁和铬</strong>（均为丰富廉价资源）为活性材料，成本优势突出。2026年多个铁-铬液流示范项目在中国启动，被视为全钒液流的重要补充路线。</p>
+<hr>
+<h2>优势与局限</h2>
+<p><strong>优势</strong>：</p>
+<ul>
+<li>功率与能量独立扩展</li>
+<li>循环寿命20000+次，25年+日历寿命</li>
+<li>不可燃，本质安全</li>
+<li>电解液可回收再利用</li>
+</ul>
+<p><strong>局限</strong>：</p>
+<ul>
+<li>能量密度低（不适合移动场景）</li>
+<li>系统复杂度高（泵、管路、控制系统）</li>
+<li>钒价波动影响全钒路线经济性</li>
+</ul>
+<blockquote>
+<p>液流电池的差异化优势在于<strong>超长寿命</strong>和<strong>本质安全</strong>。在4-12小时的中长时储能场景，它是锂电的重要补充而非替代。铁-铬液流的加速产业化为该路线增添了新的想象空间。</p>
+</blockquote>
+</div>
+  <div class="article-footer"><hr>
+    <div class="article-meta-grid">
+      <div class="article-meta-item"><span class="article-meta-label">发布日期</span><time datetime="2026-05-18">2026/05/18</time></div>
+      <div class="article-meta-item"><span class="article-meta-label">分类</span><span>技术路线</span></div>
+    </div>
+    <a href="/index.html" class="back-link">← 返回首页</a>
+  </div>
+  <div class="related-articles">
+    <h3>相关文章</h3>
+    <div class="related-grid"><a href="/articles/technologies/overview.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">储能技术全景图</div></a><a href="/articles/technologies/lithium-ion.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">锂离子电池储能</div></a><a href="/articles/technologies/solid-state.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">固态电池储能</div></a></div>
+  </div>
+</main><footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo"><span class="gradient">PowerStorage</span>.cn</span>
+      <p>AI 驱动 · 定期检索更新 · 储能技术前沿洞察</p>
+    </div>
+    <div class="footer-meta">
+      <span>数据更新：2026年5月</span>
+      <span class="footer-dot"></span>
+      <span>内容由 AI 辅助生成</span>
+    </div>
+  </div>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

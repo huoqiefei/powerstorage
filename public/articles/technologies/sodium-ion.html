@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>钠离子电池储能 — PowerStorage</title>
+<meta name="description" content="钠元素地壳含量2.75%，资源丰富且成本低廉。钠离子电池正从实验室走向示范工程，中国内蒙古500MW/2000MWh项目率先采用钠锂混合方案。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="/index.html" class="logo">
+      <svg class="logo-svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect x="2" y="8" width="8" height="16" rx="2" fill="currentColor" opacity="0.4"/>
+        <rect x="12" y="4" width="8" height="20" rx="2" fill="currentColor" opacity="0.7"/>
+        <rect x="22" y="10" width="4" height="14" rx="1" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">PowerStorage</span>
+      <span class="logo-domain">.cn</span>
+    </a>
+    <nav class="topbar-nav">
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">技术路线 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/technologies/overview.html">技术全景图</a>
+          <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+          <a href="/articles/technologies/solid-state.html">固态电池</a>
+          <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+          <a href="/articles/technologies/flow-battery.html">液流电池</a>
+          <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+          <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+          <a href="/articles/technologies/hydrogen.html">氢储能</a>
+          <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+          <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+          <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">政策研究 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/policies/china-national.html">国家政策</a>
+          <a href="/articles/policies/china-local.html">地方规划</a>
+          <a href="/articles/policies/overseas-policies.html">海外对比</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">项目与市场 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+          <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+          <a href="/articles/market/trends-2026.html">市场与趋势</a>
+          <a href="/articles/market/investment-financing.html">投融资趋势</a>
+        </div>
+      </div>
+    </nav>
+    <div class="topbar-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-nav-section"><h3>技术路线</h3>
+      <a href="/articles/technologies/overview.html">技术全景图</a>
+      <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+      <a href="/articles/technologies/solid-state.html">固态电池</a>
+      <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+      <a href="/articles/technologies/flow-battery.html">液流电池</a>
+      <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+      <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+      <a href="/articles/technologies/hydrogen.html">氢储能</a>
+      <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+      <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+      <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+    </div>
+    <div class="mobile-nav-section"><h3>政策研究</h3>
+      <a href="/articles/policies/china-national.html">国家政策</a>
+      <a href="/articles/policies/china-local.html">地方规划</a>
+      <a href="/articles/policies/overseas-policies.html">海外对比</a>
+    </div>
+    <div class="mobile-nav-section"><h3>项目与市场</h3>
+      <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+      <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+      <a href="/articles/market/trends-2026.html">市场与趋势</a>
+      <a href="/articles/market/investment-financing.html">投融资趋势</a>
+    </div>
+  </div>
+</div>
+<div class="mobile-drawer-overlay" id="mobileOverlay"></div>
+<main class="main">
+  <div class="breadcrumbs">
+    <a href="/index.html">首页</a><span class="sep">/</span>
+    <a href="/index.html#technologies">技术路线</a><span class="sep">/</span>
+    <span class="current">钠离子电池储能</span>
+  </div>
+  <div class="content"><h1>钠离子电池储能</h1>
+<blockquote>
+<p>2026年是钠离子电池从&quot;备选方案&quot;到&quot;大规模商用&quot;的转折元年。宁德时代与海博思创签署60GWh超级订单，钠电产业化全面加速。</p>
+</blockquote>
+<div class="stats-banner"><div class="stat-card accent"><div class="stat-value">2.75%</div><div class="stat-label">钠元素地壳含量</div></div><div class="stat-card green"><div class="stat-value">¥2000</div><div class="stat-label">碳酸钠价格 (元/吨)</div></div><div class="stat-card purple"><div class="stat-value">2GWh</div><div class="stat-label">最大钠锂混合储能项目</div></div></div>
+
+<hr>
+<h2>技术原理</h2>
+<p>钠离子电池与锂离子电池工作原理高度相似（&quot;摇椅式&quot;嵌入/脱出），但以<strong>钠</strong>替代<strong>锂</strong>：</p>
+<ul>
+<li>正极：层状氧化物（动力方向）、聚阴离子化合物（储能方向）、普鲁士蓝类似物</li>
+<li>负极：硬碳（主流）、合金类材料</li>
+<li>电解液：钠盐溶于有机溶剂</li>
+</ul>
+<hr>
+<h2>核心优势</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>钠离子 vs 锂离子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>资源丰度</strong></td>
+<td>钠地壳含量2.75% vs 锂0.0065%</td>
+</tr>
+<tr>
+<td><strong>原材料成本</strong></td>
+<td>碳酸钠约¥2000/吨 vs 碳酸锂约¥200,000/吨</td>
+</tr>
+<tr>
+<td><strong>低温性能</strong></td>
+<td>-40°C保持&gt;90%容量（锂电70-85%）</td>
+</tr>
+<tr>
+<td><strong>安全性</strong></td>
+<td>可放电至0V运输储存，热失控风险低</td>
+</tr>
+<tr>
+<td><strong>能量密度</strong></td>
+<td>120-175Wh/kg vs 锂电150-250Wh/kg</td>
+</tr>
+<tr>
+<td><strong>电芯成本</strong></td>
+<td>0.35-0.40元/Wh vs 锂电0.30-0.40元/Wh</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2026年产业化突破</h2>
+<h3>宁德时代：全球钠电领导者</h3>
+<table>
+<thead>
+<tr>
+<th>事件</th>
+<th>详情</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>&quot;钠芯&quot;品牌发布</strong></td>
+<td>2026年4月&quot;超级科技日&quot;发布Naxin品牌</td>
+</tr>
+<tr>
+<td><strong>60GWh超级订单</strong></td>
+<td>与海博思创签署三年供货协议，全球最大钠电订单</td>
+</tr>
+<tr>
+<td><strong>40GWh扩产</strong></td>
+<td>福建福鼎基地投资50亿元扩建钠电产能</td>
+</tr>
+<tr>
+<td><strong>Naxtra电池包</strong></td>
+<td>与长安汽车合作，启源A06搭载，2026年中上市</td>
+</tr>
+<tr>
+<td><strong>能量密度</strong></td>
+<td>最高175Wh/kg，接近LFP水平</td>
+</tr>
+<tr>
+<td><strong>循环寿命</strong></td>
+<td>300Ah+电芯超15000次循环</td>
+</tr>
+</tbody></table>
+<h3>竞争格局</h3>
+<table>
+<thead>
+<tr>
+<th>企业</th>
+<th>战略重点</th>
+<th>2026进展</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>宁德时代</strong></td>
+<td>全场景（乘用车+储能+换电）</td>
+<td>60GWh订单+40GWh扩建</td>
+</tr>
+<tr>
+<td><strong>比亚迪</strong></td>
+<td>储能优先</td>
+<td>全球首个MW级钠电储能系统，第三代聚阴离子平台</td>
+</tr>
+<tr>
+<td><strong>中科海钠</strong></td>
+<td>重卡+特种储能</td>
+<td><em>Nature Energy</em>阻燃电解液论文；&quot;海星&quot;钠电重卡交付约200台</td>
+</tr>
+<tr>
+<td><strong>鹏辉能源</strong></td>
+<td>储能电芯</td>
+<td>批量出货，产能扩张中</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>标志性项目</h3>
+<ul>
+<li><strong>内蒙古扎兰屯</strong> 500MW/2000MWh 项目：<strong>磷酸铁锂+钠离子电池混合方案</strong>，中国首个大规模钠电混合储能电站</li>
+<li><strong>宁德时代×海博思创</strong> 60GWh框架协议，覆盖2027-2029年交付</li>
+</ul>
+<hr>
+<h2>钠锂混合：实用主义路线</h2>
+<p>2026年的重要趋势是<strong>钠锂混合储能系统</strong>：</p>
+<ul>
+<li>利用钠电低成本做&quot;基荷&quot;容量</li>
+<li>利用锂电高性能做&quot;调峰&quot;响应</li>
+<li>优势互补，系统成本降低15-25%</li>
+<li>&quot;锂+钠&quot;双路线并存成为行业新常态</li>
+</ul>
+<hr>
+<h2>挑战</h2>
+<ul>
+<li>能量密度偏低，系统占地面积大</li>
+<li>硬碳负极供应链尚不成熟（主要依赖进口椰壳炭）</li>
+<li>循环寿命长期验证数据不足</li>
+<li>成本优势需碳酸锂价格维持20万元/吨以上才能充分体现</li>
+</ul>
+<hr>
+<h2>经济性展望</h2>
+<ul>
+<li>当前钠电价格：<strong>0.35-0.40元/Wh</strong>（与锂电差距仅0.10元/Wh）</li>
+<li>成本目标：供应链成熟后系统成本有望降至<strong>0.2-0.3元/Wh</strong></li>
+<li>2026年全球钠电出货量预计达<strong>数十GWh级别</strong></li>
+</ul>
+<blockquote>
+<p>钠离子电池的战略价值不仅是成本优势，更在于<strong>供应链安全</strong>——减少对锂、钴等关键矿产的依赖。在中美地缘博弈背景下，2026年标志着全球钠离子电池从&quot;示范验证&quot;正式进入**&quot;钠锂双星&quot;大规模商业化**新阶段。</p>
+</blockquote>
+</div>
+  <div class="article-footer"><hr>
+    <div class="article-meta-grid">
+      <div class="article-meta-item"><span class="article-meta-label">发布日期</span><time datetime="2026-05-15">2026/05/15</time></div>
+      <div class="article-meta-item"><span class="article-meta-label">分类</span><span>技术路线</span></div>
+    </div>
+    <a href="/index.html" class="back-link">← 返回首页</a>
+  </div>
+  <div class="related-articles">
+    <h3>相关文章</h3>
+    <div class="related-grid"><a href="/articles/technologies/overview.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">储能技术全景图</div></a><a href="/articles/technologies/lithium-ion.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">锂离子电池储能</div></a><a href="/articles/technologies/solid-state.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">固态电池储能</div></a></div>
+  </div>
+</main><footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo"><span class="gradient">PowerStorage</span>.cn</span>
+      <p>AI 驱动 · 定期检索更新 · 储能技术前沿洞察</p>
+    </div>
+    <div class="footer-meta">
+      <span>数据更新：2026年5月</span>
+      <span class="footer-dot"></span>
+      <span>内容由 AI 辅助生成</span>
+    </div>
+  </div>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

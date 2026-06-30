@@ -4,7 +4,7 @@
   "description": "PowerStorage.cn — 储能技术前沿洞察 | Energy Storage Technology Frontier Insights",
   "scripts": {
     "build": "node build.js",
-    "start": "npx serve . -p 3000 --no-clipboard",
+    "start": "npx serve public -p 3000 --no-clipboard",
     "dev": "npx serve . -p 3000 --no-clipboard"
   },
   "keywords": [
