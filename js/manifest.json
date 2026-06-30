@@ -1,0 +1,452 @@
+[
+  {
+    "path": "technologies/overview",
+    "title": "储能技术全景图",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-28",
+    "excerpt": "2026年，全球储能产业正经历从\"锂电独大\"到\"多元共生\"的历史性转变。梳理主流及前沿储能技术的成熟度、应用场景与发展趋势。",
+    "stats": [
+      {
+        "value": "450+",
+        "label": "2026 全球储能装机预期 (GWh)",
+        "cls": "accent"
+      },
+      {
+        "value": "50GW+",
+        "label": "中国十五五规划储能目标",
+        "cls": "green"
+      },
+      {
+        "value": "10+",
+        "label": "活跃储能技术路线",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/lithium-ion",
+    "title": "锂离子电池储能",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-25",
+    "excerpt": "锂离子电池仍是储能的绝对主力，但行业正经历从\"价格内卷\"到\"价值创新\"的关键转折。15000次循环寿命、大容量电芯、液冷技术推动行业升级。",
+    "stats": [
+      {
+        "value": "15000",
+        "label": "最新电芯循环寿命 (次)",
+        "cls": "accent"
+      },
+      {
+        "value": "144.7",
+        "label": "中国新型储能累计装机 (GW)",
+        "cls": "green"
+      },
+      {
+        "value": "<0.6",
+        "label": "储能系统价格 (元/Wh)",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/solid-state",
+    "title": "固态电池储能",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-22",
+    "excerpt": "固态电池以高安全性、高能量密度成为下一代储能技术的重要方向。587Ah半固态储能电芯已亮相，产业化进程加速。",
+    "stats": [
+      {
+        "value": "587Ah",
+        "label": "最大半固态储能电芯",
+        "cls": "accent"
+      },
+      {
+        "value": "400Wh/kg",
+        "label": "量产级能量密度",
+        "cls": "green"
+      },
+      {
+        "value": "900Wh/L",
+        "label": "固态电池能量密度目标",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/iron-air",
+    "title": "铁-空气电池储能",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-20",
+    "excerpt": "100小时+持续放电时长，铁-空气电池正从概念走向商业部署。Form Energy引领长时储能革命，Google签约30GWh储能容量。",
+    "stats": [
+      {
+        "value": "100h+",
+        "label": "持续放电时长",
+        "cls": "accent"
+      },
+      {
+        "value": "30GWh",
+        "label": "Google 签约储能容量",
+        "cls": "green"
+      },
+      {
+        "value": "$6/kW",
+        "label": "度电成本目标",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/flow-battery",
+    "title": "液流电池储能",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-18",
+    "excerpt": "液流电池以20000+次循环寿命和安全优势脱颖而出。锌基技术突破和全钒液流电池推动成本下降，EOS Energy 8GWh产能目标在望。",
+    "stats": [
+      {
+        "value": "20000+",
+        "label": "液流电池循环寿命 (次)",
+        "cls": "accent"
+      },
+      {
+        "value": "8GWh",
+        "label": "EOS Energy 产能目标",
+        "cls": "green"
+      },
+      {
+        "value": "$218",
+        "label": "目标度电成本 (/kWh)",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/sodium-ion",
+    "title": "钠离子电池储能",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-15",
+    "excerpt": "钠元素地壳含量2.75%，资源丰富且成本低廉。钠离子电池正从实验室走向示范工程，中国内蒙古500MW/2000MWh项目率先采用钠锂混合方案。",
+    "stats": [
+      {
+        "value": "2.75%",
+        "label": "钠元素地壳含量",
+        "cls": "accent"
+      },
+      {
+        "value": "¥2000",
+        "label": "碳酸钠价格 (元/吨)",
+        "cls": "green"
+      },
+      {
+        "value": "2GWh",
+        "label": "最大钠锂混合储能项目",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/compressed-air",
+    "title": "压缩空气储能 (CAES)",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-06-15",
+    "excerpt": "中国领跑全球A-CAES：能建数科300MW电站投运、中电建肥城5GW基地规划、系统效率70%+全球最高。从盐穴到人工硐室，CAES正成为长时储能重要选择。",
+    "stats": [
+      {
+        "value": "300MW",
+        "label": "能建应城电站单机容量",
+        "cls": "accent"
+      },
+      {
+        "value": "5GW",
+        "label": "中电建肥城基地总规划",
+        "cls": "green"
+      },
+      {
+        "value": "70%+",
+        "label": "A-CAES 系统效率（全球最高）",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/hydrogen",
+    "title": "氢储能技术",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-10",
+    "excerpt": "氢储能是唯一可实现跨季节储能的方案。120MJ/kg的液氢能量密度、SOEC电解效率突破90%，绿色氢能经济正在成型。",
+    "stats": [
+      {
+        "value": "跨季节",
+        "label": "唯一跨季储能方案",
+        "cls": "accent"
+      },
+      {
+        "value": "120MJ",
+        "label": "液氢能量密度 (/kg)",
+        "cls": "green"
+      },
+      {
+        "value": "90%+",
+        "label": "SOEC 电解效率目标",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/flywheel-emerging",
+    "title": "飞轮与新兴储能技术",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-08",
+    "excerpt": "飞轮储能响应时间小于5ms，循环寿命达100万次。热化学储能、重力储能等新兴技术以极低成本崭露头角。",
+    "stats": [
+      {
+        "value": "<5ms",
+        "label": "飞轮响应时间",
+        "cls": "accent"
+      },
+      {
+        "value": "100万",
+        "label": "飞轮循环寿命 (次)",
+        "cls": "green"
+      },
+      {
+        "value": "$5-10",
+        "label": "热化学储电成本 (/kWh)",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/quantum-battery",
+    "title": "量子电池技术前沿",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-05-05",
+    "excerpt": "量子电池利用量子纠缠和相干性实现超快充电，功率可达经典方案的2倍。2026年首次实验验证成功，储能与充电时间比达百万倍。",
+    "stats": [
+      {
+        "value": "2×",
+        "label": "量子充电功率优势",
+        "cls": "accent"
+      },
+      {
+        "value": "百万倍",
+        "label": "储能/充电时间比",
+        "cls": "green"
+      },
+      {
+        "value": "20%",
+        "label": "量子电池市场 CAGR",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "policies/china-national",
+    "title": "中国储能国家政策全景",
+    "category": "policies",
+    "categoryLabel": "政策研究",
+    "date": "2026-05-30",
+    "excerpt": "2026年4月发布88项储能相关政策。从强制配储到独立市场主体，容量补偿+套利+辅助服务三元收益模式逐步成型。",
+    "stats": [
+      {
+        "value": "88项",
+        "label": "4月储能相关政策数量",
+        "cls": "accent"
+      },
+      {
+        "value": "三元",
+        "label": "容量补偿+套利+服务收益",
+        "cls": "green"
+      },
+      {
+        "value": "29项",
+        "label": "AI+能源行动方案任务",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "policies/china-local",
+    "title": "地方储能规划与政策",
+    "category": "policies",
+    "categoryLabel": "政策研究",
+    "date": "2026-05-28",
+    "excerpt": "山西规划14GW新型储能装机，四川调峰补偿350元/MWh，上海先进储能补贴上限500万元——地方政策各具特色。",
+    "stats": [
+      {
+        "value": "14GW",
+        "label": "山西新型储能装机目标",
+        "cls": "accent"
+      },
+      {
+        "value": "350元",
+        "label": "四川调峰补偿 (元/MWh)",
+        "cls": "green"
+      },
+      {
+        "value": "500万",
+        "label": "上海先进储能补贴上限",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "projects/global-mega-projects",
+    "title": "全球储能重大项目追踪",
+    "category": "projects",
+    "categoryLabel": "项目与市场",
+    "date": "2026-05-26",
+    "excerpt": "7.8GWh全球单体最大BESS并网运行，全球储能项目管道超1.28万亿美元，6600+项目遍布各大洲——重大项目全景扫描。",
+    "stats": [
+      {
+        "value": "7.8GWh",
+        "label": "全球单体最大并网 BESS",
+        "cls": "accent"
+      },
+      {
+        "value": "1.28万亿",
+        "label": "全球储能项目管道 (美元)",
+        "cls": "green"
+      },
+      {
+        "value": "6600+",
+        "label": "全球储能项目数量",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "market/trends-2026",
+    "title": "储能市场趋势与展望",
+    "category": "market",
+    "categoryLabel": "项目与市场",
+    "date": "2026-06-01",
+    "excerpt": "国信证券预测2026年全球储能装机同比增长40%。市场、技术、政策三重拐点同时出现，1TWh年装机时代即将到来。",
+    "stats": [
+      {
+        "value": "+40%",
+        "label": "2026 全球装机同比增长",
+        "cls": "accent"
+      },
+      {
+        "value": "1TWh",
+        "label": "2030 全球年装机预测",
+        "cls": "green"
+      },
+      {
+        "value": "470个",
+        "label": "全国虚拟电厂项目数",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "technologies/grid-forming",
+    "title": "构网型储能技术",
+    "category": "technologies",
+    "categoryLabel": "技术路线",
+    "date": "2026-06-22",
+    "excerpt": "构网型储能从概念验证走向工程实践。随着新能源渗透率突破临界点，传统跟网型逆变器已无法支撑电网稳定，构网型技术成为高比例新能源电力系统的\"压舱石\"。",
+    "stats": [
+      {
+        "value": "<50ms",
+        "label": "构网型惯量响应时间",
+        "cls": "accent"
+      },
+      {
+        "value": "40%+",
+        "label": "新能源渗透率临界点",
+        "cls": "green"
+      },
+      {
+        "value": "10-15%",
+        "label": "构网型系统成本增量",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "policies/overseas-policies",
+    "title": "海外储能政策对比",
+    "category": "policies",
+    "categoryLabel": "政策研究",
+    "date": "2026-06-20",
+    "excerpt": "美国IRA执行细则落地推高本土制造壁垒，欧盟《净零工业法案》强化储能本土化率要求，日韩聚焦长时储能战略。中国储能企业出海面临政策红利窗口与合规风险并存的新局面。",
+    "stats": [
+      {
+        "value": "30%",
+        "label": "美国独立储能 ITC 抵免率",
+        "cls": "accent"
+      },
+      {
+        "value": "40%",
+        "label": "欧盟 2030 本土制造目标",
+        "cls": "green"
+      },
+      {
+        "value": "¥4200亿",
+        "label": "日本储能产业补贴预算",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "projects/china-pilot",
+    "title": "中国储能示范项目巡礼",
+    "category": "projects",
+    "categoryLabel": "项目与市场",
+    "date": "2026-06-18",
+    "excerpt": "从内蒙古钠锂混合储能到西藏构网型储能，从山东独立储能电站到青海液流电池验证——这些示范项目不仅是技术验证，更是商业模式探索的先驱。",
+    "stats": [
+      {
+        "value": "500MW",
+        "label": "蒙西钠锂混合储能规模",
+        "cls": "accent"
+      },
+      {
+        "value": "4300m",
+        "label": "最高海拔构网型储能",
+        "cls": "green"
+      },
+      {
+        "value": "¥1350万",
+        "label": "东营电站单月综合收入",
+        "cls": "purple"
+      }
+    ]
+  },
+  {
+    "path": "market/investment-financing",
+    "title": "储能投融资趋势",
+    "category": "market",
+    "categoryLabel": "项目与市场",
+    "date": "2026-06-25",
+    "excerpt": "2026年H1全球储能一级市场融资约$85亿，同比增长35%。钠电和长时储能成为资本新宠，二级市场储能板块在震荡中分化。",
+    "stats": [
+      {
+        "value": "$85亿",
+        "label": "H1 一级市场融资额",
+        "cls": "accent"
+      },
+      {
+        "value": "+35%",
+        "label": "一级市场融资同比增长",
+        "cls": "green"
+      },
+      {
+        "value": "+18%",
+        "label": "全球储能指数 H1 涨幅",
+        "cls": "purple"
+      }
+    ]
+  }
+]

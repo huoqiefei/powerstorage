@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>固态电池储能 — PowerStorage</title>
+<meta name="description" content="固态电池以高安全性、高能量密度成为下一代储能技术的重要方向。587Ah半固态储能电芯已亮相，产业化进程加速。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="/index.html" class="logo">
+      <svg class="logo-svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <rect x="2" y="8" width="8" height="16" rx="2" fill="currentColor" opacity="0.4"/>
+        <rect x="12" y="4" width="8" height="20" rx="2" fill="currentColor" opacity="0.7"/>
+        <rect x="22" y="10" width="4" height="14" rx="1" fill="currentColor"/>
+      </svg>
+      <span class="logo-text">PowerStorage</span>
+      <span class="logo-domain">.cn</span>
+    </a>
+    <nav class="topbar-nav">
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">技术路线 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/technologies/overview.html">技术全景图</a>
+          <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+          <a href="/articles/technologies/solid-state.html">固态电池</a>
+          <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+          <a href="/articles/technologies/flow-battery.html">液流电池</a>
+          <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+          <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+          <a href="/articles/technologies/hydrogen.html">氢储能</a>
+          <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+          <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+          <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">政策研究 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/policies/china-national.html">国家政策</a>
+          <a href="/articles/policies/china-local.html">地方规划</a>
+          <a href="/articles/policies/overseas-policies.html">海外对比</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">项目与市场 <span class="arrow">▾</span></button>
+        <div class="nav-dropdown-panel">
+          <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+          <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+          <a href="/articles/market/trends-2026.html">市场与趋势</a>
+          <a href="/articles/market/investment-financing.html">投融资趋势</a>
+        </div>
+      </div>
+    </nav>
+    <div class="topbar-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-nav-section"><h3>技术路线</h3>
+      <a href="/articles/technologies/overview.html">技术全景图</a>
+      <a href="/articles/technologies/lithium-ion.html">锂离子电池</a>
+      <a href="/articles/technologies/solid-state.html">固态电池</a>
+      <a href="/articles/technologies/iron-air.html">铁-空气电池</a>
+      <a href="/articles/technologies/flow-battery.html">液流电池</a>
+      <a href="/articles/technologies/sodium-ion.html">钠离子电池</a>
+      <a href="/articles/technologies/compressed-air.html">压缩空气储能</a>
+      <a href="/articles/technologies/hydrogen.html">氢储能</a>
+      <a href="/articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+      <a href="/articles/technologies/quantum-battery.html">量子电池</a>
+      <a href="/articles/technologies/grid-forming.html">构网型储能</a>
+    </div>
+    <div class="mobile-nav-section"><h3>政策研究</h3>
+      <a href="/articles/policies/china-national.html">国家政策</a>
+      <a href="/articles/policies/china-local.html">地方规划</a>
+      <a href="/articles/policies/overseas-policies.html">海外对比</a>
+    </div>
+    <div class="mobile-nav-section"><h3>项目与市场</h3>
+      <a href="/articles/projects/global-mega-projects.html">全球重大项目</a>
+      <a href="/articles/projects/china-pilot.html">中国示范项目</a>
+      <a href="/articles/market/trends-2026.html">市场与趋势</a>
+      <a href="/articles/market/investment-financing.html">投融资趋势</a>
+    </div>
+  </div>
+</div>
+<div class="mobile-drawer-overlay" id="mobileOverlay"></div>
+<main class="main">
+  <div class="breadcrumbs">
+    <a href="/index.html">首页</a><span class="sep">/</span>
+    <a href="/index.html#technologies">技术路线</a><span class="sep">/</span>
+    <span class="current">固态电池储能</span>
+  </div>
+  <div class="content"><h1>固态电池储能</h1>
+<blockquote>
+<p>2026年是固态电池产业化布局的关键窗口期。Donut Lab发布首款量产全固态电池，LG化学展示硫化物正极技术，宁德时代凝聚态电池2026下半年启动量产。全行业从&quot;实验室&quot;加速迈向&quot;生产线&quot;。</p>
+</blockquote>
+<div class="stats-banner"><div class="stat-card accent"><div class="stat-value">587Ah</div><div class="stat-label">最大半固态储能电芯</div></div><div class="stat-card green"><div class="stat-value">400Wh/kg</div><div class="stat-label">量产级能量密度</div></div><div class="stat-card purple"><div class="stat-value">900Wh/L</div><div class="stat-label">固态电池能量密度目标</div></div></div>
+
+<hr>
+<h2>固态锂离子电池</h2>
+<h3>技术原理</h3>
+<p>以固态电解质替代液态电解质，从根本上消除漏液、燃烧风险，同时支持更高能量密度。主流路线分为：</p>
+<ul>
+<li><strong>硫化物</strong>：离子电导率最高，但界面问题突出</li>
+<li><strong>氧化物</strong>：稳定性好，但电导率偏低</li>
+<li><strong>聚合物</strong>：加工性好，但室温性能差</li>
+<li><strong>复合路线</strong>（硫化物/氧化物+聚合物）：多技术融合</li>
+</ul>
+<h3>2026年全球关键进展</h3>
+<table>
+<thead>
+<tr>
+<th>企业</th>
+<th>进展</th>
+<th>时间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Donut Lab (芬兰)</strong></td>
+<td>全球首款量产全固态电池，400Wh/kg，5分钟充满</td>
+<td>Q1 2026 CES发布</td>
+</tr>
+<tr>
+<td><strong>LG Energy Solution</strong></td>
+<td>硫正极全固态电池，1,500mAh/g，发表于<em>Nature Communications</em></td>
+<td>2026年3月</td>
+</tr>
+<tr>
+<td><strong>宁德时代</strong></td>
+<td>凝聚态电池（半固态）2026下半年启动量产</td>
+<td>2026下半年</td>
+</tr>
+<tr>
+<td><strong>国轩高科</strong></td>
+<td>全固态电池计划2026年底小批量量产</td>
+<td>2026年底</td>
+</tr>
+<tr>
+<td><strong>ION Storage Systems</strong></td>
+<td>美国首个通过客户性能认证的固态电池公司，无阳极设计</td>
+<td>2026年3月</td>
+</tr>
+<tr>
+<td><strong>Solidion</strong></td>
+<td>&quot;滴入式&quot;液态转固态专利技术，现有锂电产线可无缝切换</td>
+<td>2026年4月</td>
+</tr>
+<tr>
+<td><strong>因湃电池</strong></td>
+<td>行业首款587Ah半固态储能大电芯</td>
+<td>2026年CIBF</td>
+</tr>
+<tr>
+<td><strong>三星SDI</strong></td>
+<td>硫化物固态电解质路线，样品能量密度&gt;900Wh/L</td>
+<td>持续推进</td>
+</tr>
+</tbody></table>
+<h3>产业化加速信号</h3>
+<ul>
+<li>2025-2026年Q1全球固态电池融资超<strong>13亿美元</strong></li>
+<li>部分厂商已建成<strong>500MWh级固态量产线</strong></li>
+<li>干法电极设备实现<strong>从0到1突破</strong></li>
+<li>行业普遍预计<strong>2027年全固态小批量装车、2030年前后规模化应用</strong></li>
+</ul>
+<h3>储能应用前景</h3>
+<ul>
+<li>高安全性：无液态电解质，本质安全</li>
+<li>长寿命：固态电解质副反应少</li>
+<li>宽温域：-30°C至60°C正常工作</li>
+<li>当前瓶颈：成本高、界面阻抗、规模制造</li>
+</ul>
+<hr>
+<h2>量子电池</h2>
+<h3>2026年里程碑突破</h3>
+<p><strong>深圳国际量子研究院</strong>（俞大鹏院士团队）联合西班牙CSIC，在超导量子处理器上首次实验验证了**&quot;量子充电优势&quot;**：</p>
+<ul>
+<li>16-qubit超导transmon处理器</li>
+<li>量子充电功率可达经典方案的<strong>2倍</strong></li>
+<li>电池越大，充电越快（1/√N标度律）</li>
+<li>成果发表于 Physical Review Letters (2026.2) 并成为封面文章</li>
+</ul>
+<p><strong>澳大利亚CSIRO</strong>（2026年3月）展示世界首个全循环量子电池：</p>
+<ul>
+<li>多层有机微腔结构</li>
+<li>激光无线充电</li>
+<li>储能时间为充电时间的<strong>百万倍</strong></li>
+</ul>
+<hr>
+<h2>量子电池 vs 固态锂电池</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>固态锂电池</th>
+<th>量子电池</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>物理原理</strong></td>
+<td>离子在固态电解质中迁移</td>
+<td>量子纠缠、叠加态</td>
+</tr>
+<tr>
+<td><strong>成熟度</strong></td>
+<td>半固态量产/全固态研发</td>
+<td>原理验证</td>
+</tr>
+<tr>
+<td><strong>储能时长</strong></td>
+<td>2-8小时</td>
+<td>纳秒级（当前）</td>
+</tr>
+<tr>
+<td><strong>应用场景</strong></td>
+<td>电动车、电网储能</td>
+<td>量子计算供能、传感器</td>
+</tr>
+<tr>
+<td><strong>市场规模</strong></td>
+<td>千亿美元级</td>
+<td>2亿美元（2026年）</td>
+</tr>
+<tr>
+<td><strong>商业化</strong></td>
+<td>3-5年</td>
+<td>10-15年+</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>固态锂离子电池正处于从半固态到全固态的跨越期——Donut Lab量产突破和宁德时代凝聚态电池标志着2026年为产业化元年。而量子电池则开启了<strong>量子力学与储能科学交叉</strong>的全新维度。两者虽共享&quot;固态&quot;之名，却分属迥异的物理世界。</p>
+</blockquote>
+</div>
+  <div class="article-footer"><hr>
+    <div class="article-meta-grid">
+      <div class="article-meta-item"><span class="article-meta-label">发布日期</span><time datetime="2026-05-22">2026/05/22</time></div>
+      <div class="article-meta-item"><span class="article-meta-label">分类</span><span>技术路线</span></div>
+    </div>
+    <a href="/index.html" class="back-link">← 返回首页</a>
+  </div>
+  <div class="related-articles">
+    <h3>相关文章</h3>
+    <div class="related-grid"><a href="/articles/technologies/overview.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">储能技术全景图</div></a><a href="/articles/technologies/lithium-ion.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">锂离子电池储能</div></a><a href="/articles/technologies/iron-air.html" class="related-card"><div class="related-card-category">技术路线</div><div class="related-card-title">铁-空气电池储能</div></a></div>
+  </div>
+</main><footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo"><span class="gradient">PowerStorage</span>.cn</span>
+      <p>AI 驱动 · 定期检索更新 · 储能技术前沿洞察</p>
+    </div>
+    <div class="footer-meta">
+      <span>数据更新：2026年5月</span>
+      <span class="footer-dot"></span>
+      <span>内容由 AI 辅助生成</span>
+    </div>
+  </div>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

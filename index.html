@@ -3,20 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PowerStorage — 储能技术前沿</title>
-<meta name="description" content="PowerStorage.cn 聚焦全球储能技术进展，追踪锂电、固态、铁-空气、液流、钠离子等前沿储能技术动态。">
+<title>PowerStorage — 储能技术前沿洞察</title>
+<meta name="description" content="PowerStorage.cn 聚焦全球储能技术进展，追踪锂电、固态、铁-空气、液流、钠离子、构网型等前沿储能技术动态。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
 <!-- Top Navigation -->
 <header class="topbar" id="topbar">
   <div class="topbar-inner">
-    <a href="#" class="logo" data-page="technologies/overview">
+    <a href="/" class="logo">
       <svg class="logo-svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
         <rect x="2" y="8" width="8" height="16" rx="2" fill="currentColor" opacity="0.4"/>
         <rect x="12" y="4" width="8" height="20" rx="2" fill="currentColor" opacity="0.7"/>
@@ -29,30 +28,34 @@
       <div class="nav-dropdown">
         <button class="nav-dropdown-btn">技术路线 <span class="arrow">▾</span></button>
         <div class="nav-dropdown-panel">
-          <a href="#" data-page="technologies/overview">技术全景图</a>
-          <a href="#" data-page="technologies/lithium-ion">锂离子电池</a>
-          <a href="#" data-page="technologies/solid-state">固态电池</a>
-          <a href="#" data-page="technologies/iron-air">铁-空气电池</a>
-          <a href="#" data-page="technologies/flow-battery">液流电池</a>
-          <a href="#" data-page="technologies/sodium-ion">钠离子电池</a>
-          <a href="#" data-page="technologies/compressed-air">压缩空气储能</a>
-          <a href="#" data-page="technologies/hydrogen">氢储能</a>
-          <a href="#" data-page="technologies/flywheel-emerging">飞轮与新兴技术</a>
-          <a href="#" data-page="technologies/quantum-battery">量子电池</a>
+          <a href="articles/technologies/overview.html">技术全景图</a>
+          <a href="articles/technologies/lithium-ion.html">锂离子电池</a>
+          <a href="articles/technologies/solid-state.html">固态电池</a>
+          <a href="articles/technologies/iron-air.html">铁-空气电池</a>
+          <a href="articles/technologies/flow-battery.html">液流电池</a>
+          <a href="articles/technologies/sodium-ion.html">钠离子电池</a>
+          <a href="articles/technologies/compressed-air.html">压缩空气储能</a>
+          <a href="articles/technologies/hydrogen.html">氢储能</a>
+          <a href="articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+          <a href="articles/technologies/quantum-battery.html">量子电池</a>
+          <a href="articles/technologies/grid-forming.html">构网型储能</a>
         </div>
       </div>
       <div class="nav-dropdown">
         <button class="nav-dropdown-btn">政策研究 <span class="arrow">▾</span></button>
         <div class="nav-dropdown-panel">
-          <a href="#" data-page="policies/china-national">国家政策</a>
-          <a href="#" data-page="policies/china-local">地方规划</a>
+          <a href="articles/policies/china-national.html">国家政策</a>
+          <a href="articles/policies/china-local.html">地方规划</a>
+          <a href="articles/policies/overseas-policies.html">海外对比</a>
         </div>
       </div>
       <div class="nav-dropdown">
         <button class="nav-dropdown-btn">项目与市场 <span class="arrow">▾</span></button>
         <div class="nav-dropdown-panel">
-          <a href="#" data-page="projects/global-mega-projects">全球重大项目</a>
-          <a href="#" data-page="market/trends-2026">市场与趋势</a>
+          <a href="articles/projects/global-mega-projects.html">全球重大项目</a>
+          <a href="articles/projects/china-pilot.html">中国示范项目</a>
+          <a href="articles/market/trends-2026.html">市场与趋势</a>
+          <a href="articles/market/investment-financing.html">投融资趋势</a>
         </div>
       </div>
     </nav>
@@ -66,8 +69,9 @@
         </svg>
       </button>
       <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="菜单">
-      <span></span><span></span><span></span>
-    </button>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -76,48 +80,214 @@
   <div class="mobile-drawer-inner">
     <div class="mobile-nav-section">
       <h3>技术路线</h3>
-      <a href="#" data-page="technologies/overview">技术全景图</a>
-      <a href="#" data-page="technologies/lithium-ion">锂离子电池</a>
-      <a href="#" data-page="technologies/solid-state">固态电池</a>
-      <a href="#" data-page="technologies/iron-air">铁-空气电池</a>
-      <a href="#" data-page="technologies/flow-battery">液流电池</a>
-      <a href="#" data-page="technologies/sodium-ion">钠离子电池</a>
-      <a href="#" data-page="technologies/compressed-air">压缩空气储能</a>
-      <a href="#" data-page="technologies/hydrogen">氢储能</a>
-      <a href="#" data-page="technologies/flywheel-emerging">飞轮与新兴技术</a>
-      <a href="#" data-page="technologies/quantum-battery">量子电池</a>
+      <a href="articles/technologies/overview.html">技术全景图</a>
+      <a href="articles/technologies/lithium-ion.html">锂离子电池</a>
+      <a href="articles/technologies/solid-state.html">固态电池</a>
+      <a href="articles/technologies/iron-air.html">铁-空气电池</a>
+      <a href="articles/technologies/flow-battery.html">液流电池</a>
+      <a href="articles/technologies/sodium-ion.html">钠离子电池</a>
+      <a href="articles/technologies/compressed-air.html">压缩空气储能</a>
+      <a href="articles/technologies/hydrogen.html">氢储能</a>
+      <a href="articles/technologies/flywheel-emerging.html">飞轮与新兴技术</a>
+      <a href="articles/technologies/quantum-battery.html">量子电池</a>
+      <a href="articles/technologies/grid-forming.html">构网型储能</a>
     </div>
     <div class="mobile-nav-section">
       <h3>政策研究</h3>
-      <a href="#" data-page="policies/china-national">国家政策</a>
-      <a href="#" data-page="policies/china-local">地方规划</a>
+      <a href="articles/policies/china-national.html">国家政策</a>
+      <a href="articles/policies/china-local.html">地方规划</a>
+      <a href="articles/policies/overseas-policies.html">海外对比</a>
     </div>
     <div class="mobile-nav-section">
       <h3>项目与市场</h3>
-      <a href="#" data-page="projects/global-mega-projects">全球重大项目</a>
-      <a href="#" data-page="market/trends-2026">市场与趋势</a>
+      <a href="articles/projects/global-mega-projects.html">全球重大项目</a>
+      <a href="articles/projects/china-pilot.html">中国示范项目</a>
+      <a href="articles/market/trends-2026.html">市场与趋势</a>
+      <a href="articles/market/investment-financing.html">投融资趋势</a>
     </div>
   </div>
 </div>
 <div class="mobile-drawer-overlay" id="mobileOverlay"></div>
 
-<!-- Main Content -->
-<main class="main" id="mainContent">
-  <div class="loading-state">
-    <div class="loading-ring"></div>
-    <span>加载中</span>
+<!-- ===== Main Content ===== -->
+<main class="main">
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-badge">GLOBAL ENERGY STORAGE INSIGHTS · 2026 年 6 月</div>
+    <h1>
+      聚焦<span class="gradient">储能技术</span>前沿，<br>
+      把握<span class="gradient">百GW时代</span>脉搏
+    </h1>
+    <p class="hero-subtitle">
+      从锂电到固态，从铁-空气到量子电池 — 追踪全球储能技术路线演进，<br>
+      解析国家政策走向，洞察万亿级市场趋势。
+    </p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-value accent">459GWh</div>
+        <div class="hero-stat-label">2026 全球储能部署预测</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-value teal">18</div>
+        <div class="hero-stat-label">篇深度技术分析</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-value amber">11+</div>
+        <div class="hero-stat-label">活跃储能技术路线</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Navigation -->
+  <section class="section-header" id="categories">
+    <span class="section-label">内容分类</span>
+    <h2>按主题浏览</h2>
+    <p>四大核心板块覆盖储能产业全景，18 篇深度文章持续更新中</p>
+  </section>
+
+  <div class="category-grid">
+    <a href="#technologies-section" class="category-card">
+      <div class="category-card-icon blue">🔋</div>
+      <div class="category-card-label">技术路线</div>
+      <div class="category-card-title">11 条技术路线深度解读</div>
+      <div class="category-card-excerpt">从成熟的锂离子电池到前沿的构网型储能、量子电池，全面覆盖储能技术光谱</div>
+      <div class="category-card-count">11 篇文章</div>
+    </a>
+    <a href="#policies-section" class="category-card">
+      <div class="category-card-icon purple-icon">📋</div>
+      <div class="category-card-label">政策研究</div>
+      <div class="category-card-title">国内外政策体系解析</div>
+      <div class="category-card-excerpt">中国国家容量电价机制、地方补贴规划、海外政策对比分析</div>
+      <div class="category-card-count">3 篇文章</div>
+    </a>
+    <a href="#projects-section" class="category-card">
+      <div class="category-card-icon amber">🌍</div>
+      <div class="category-card-label">重大项目</div>
+      <div class="category-card-title">全球储能版图追踪</div>
+      <div class="category-card-excerpt">7.8GWh 全球最大 BESS 并网，中国示范项目巡礼，6600+ 项目遍布各大洲</div>
+      <div class="category-card-count">2 篇文章</div>
+    </a>
+    <a href="#market-section" class="category-card">
+      <div class="category-card-icon green">📈</div>
+      <div class="category-card-label">市场趋势</div>
+      <div class="category-card-title">百GW时代市场洞察</div>
+      <div class="category-card-excerpt">+40% 同比增长，$85亿 H1 融资，1TWh 年装机时代即将到来</div>
+      <div class="category-card-count">2 篇文章</div>
+    </a>
   </div>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar" id="filter-bar"></div>
+
+  <!-- Dynamic Articles (rendered by JS with pagination) -->
+  <div id="articles-container"></div>
+
+  <!-- Pagination -->
+  <div class="pagination" id="pagination"></div>
+
+  <!-- Technology quick-reference cards -->
+  <section class="section-header">
+    <span class="section-label">技术速览</span>
+    <h2>快速定位储能技术</h2>
+    <p>点击卡片深入了解每条技术路线的原理、应用与前景</p>
+  </section>
+
+  <div class="tech-grid">
+    <a href="articles/technologies/lithium-ion.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">⚡</div>
+        <div class="tech-card-tag">锂离子 · 主力</div>
+      </div>
+      <div class="tech-card-title">锂离子电池</div>
+      <div class="tech-card-desc">15000次循环寿命 · 314Ah电芯 · 液冷技术</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+    <a href="articles/technologies/solid-state.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">🧊</div>
+        <div class="tech-card-tag">固态 · 下一代</div>
+      </div>
+      <div class="tech-card-title">固态电池</div>
+      <div class="tech-card-desc">400Wh/kg量产 · 587Ah大电芯 · 干法电极</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+    <a href="articles/technologies/sodium-ion.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">🧂</div>
+        <div class="tech-card-tag">钠电 · 新势力</div>
+      </div>
+      <div class="tech-card-title">钠离子电池</div>
+      <div class="tech-card-desc">60GWh超级订单 · 低成本 · 资源丰富</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+    <a href="articles/technologies/iron-air.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">🔩</div>
+        <div class="tech-card-tag">铁-空气 · 长时储能</div>
+      </div>
+      <div class="tech-card-title">铁-空气电池</div>
+      <div class="tech-card-desc">100h+持续放电 · 30GWh签约 · 极低成本</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+    <a href="articles/technologies/flow-battery.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">💧</div>
+        <div class="tech-card-tag">液流 · 安全之选</div>
+      </div>
+      <div class="tech-card-title">液流电池</div>
+      <div class="tech-card-desc">20000+次循环 · 全钒/铁铬路线 · 8GWh产能</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+    <a href="articles/technologies/compressed-air.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">💨</div>
+        <div class="tech-card-tag">压缩空气 · 大规模</div>
+      </div>
+      <div class="tech-card-title">压缩空气储能</div>
+      <div class="tech-card-desc">50年+寿命 · 500MW项目 · GW级时代</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+    <a href="articles/technologies/grid-forming.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">🛡️</div>
+        <div class="tech-card-tag">构网型 · 电网稳定</div>
+      </div>
+      <div class="tech-card-title">构网型储能</div>
+      <div class="tech-card-desc"><50ms惯量响应 · 黑启动 · 弱电网适配</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年6月更新</div>
+    </a>
+    <a href="articles/technologies/hydrogen.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">💧</div>
+        <div class="tech-card-tag">氢能 · 跨季节</div>
+      </div>
+      <div class="tech-card-title">氢储能技术</div>
+      <div class="tech-card-desc">唯一跨季储能 · 120MJ/kg · SOEC 90%+</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+    <a href="articles/technologies/flywheel-emerging.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">🌀</div>
+        <div class="tech-card-tag">飞轮 · 新兴技术</div>
+      </div>
+      <div class="tech-card-title">飞轮与新兴储能</div>
+      <div class="tech-card-desc"><5ms响应 · 100万次寿命 · 热化学储能</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年5月更新</div>
+    </a>
+  </div>
+
 </main>
 
 <!-- Footer -->
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <span class="footer-logo">PowerStorage.cn</span>
+      <span class="footer-logo"><span class="gradient">PowerStorage</span>.cn</span>
       <p>AI 驱动 · 定期检索更新 · 储能技术前沿洞察</p>
     </div>
     <div class="footer-meta">
-      <span>数据更新：2026年5月</span>
+      <span>数据更新：2026年6月</span>
       <span class="footer-dot"></span>
       <span>内容由 AI 辅助生成</span>
     </div>
