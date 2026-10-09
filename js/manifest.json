@@ -154,22 +154,22 @@
     "title": "压缩空气储能 (CAES)",
     "category": "technologies",
     "categoryLabel": "技术路线",
-    "date": "2026-05-12",
-    "excerpt": "50年+运营寿命、GW级项目落地——压缩空气储能正成为大规模长时储能的重要选择。Willow Rock 500MW项目引领行业发展。",
+    "date": "2026-06-15",
+    "excerpt": "中国领跑全球A-CAES：能建数科300MW电站投运、中电建肥城5GW基地规划、系统效率70%+全球最高。从盐穴到人工硐室，CAES正成为长时储能重要选择。",
     "stats": [
       {
-        "value": "50年+",
-        "label": "CAES 电站运营寿命",
+        "value": "300MW",
+        "label": "能建应城电站单机容量",
         "cls": "accent"
       },
       {
-        "value": "500MW",
-        "label": "Willow Rock 项目功率",
+        "value": "5GW",
+        "label": "中电建肥城基地总规划",
         "cls": "green"
       },
       {
-        "value": "80%",
-        "label": "美国地质适用比例",
+        "value": "70%+",
+        "label": "A-CAES 系统效率（全球最高）",
         "cls": "purple"
       }
     ]

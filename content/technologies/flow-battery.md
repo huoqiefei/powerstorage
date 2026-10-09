@@ -57,6 +57,11 @@ EOS新一代**"Indensity"**平台目标：**1GWh/英亩**的极致空间效率�
 
 ## 优势与局限
 
+<figure>
+  <img src="/assets/img/flow-battery.svg" alt="液流电池循环寿命领先">
+  <figcaption>液流电池循环寿命可达 20000+ 次，在长时储能技术中寿命领先，本质安全与功率/能量解耦是其差异化优势。</figcaption>
+</figure>
+
 **优势**：
 - 功率与能量独立扩展
 - 循环寿命20000+次，25年+日历寿命

@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PowerStorage — 储能技术前沿洞察</title>
-<meta name="description" content="PowerStorage.cn 聚焦全球储能技术进展，追踪锂电、固态、铁-空气、液流、钠离子、构网型等前沿储能技术动态。">
+<!-- STATIC_SEO -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<!-- HOMEPAGE_JSONLD -->
 </head>
 <body>
 
@@ -114,7 +114,7 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-badge">GLOBAL ENERGY STORAGE INSIGHTS · 2026 年 6 月</div>
+    <div class="hero-badge">GLOBAL ENERGY STORAGE INSIGHTS · 2026 年 7 月</div>
     <h1>
       聚焦<span class="gradient">储能技术</span>前沿，<br>
       把握<span class="gradient">百GW时代</span>脉搏
@@ -125,11 +125,11 @@
     </p>
     <div class="hero-stats">
       <div class="hero-stat">
-        <div class="hero-stat-value accent">459GWh</div>
-        <div class="hero-stat-label">2026 全球储能部署预测</div>
+        <div class="hero-stat-value accent">1026GWh</div>
+        <div class="hero-stat-label">2026 全球储能电芯出货预测</div>
       </div>
       <div class="hero-stat">
-        <div class="hero-stat-value teal">18</div>
+        <div class="hero-stat-value teal">26</div>
         <div class="hero-stat-label">篇深度技术分析</div>
       </div>
       <div class="hero-stat">
@@ -143,23 +143,23 @@
   <section class="section-header" id="categories">
     <span class="section-label">内容分类</span>
     <h2>按主题浏览</h2>
-    <p>四大核心板块覆盖储能产业全景，18 篇深度文章持续更新中</p>
+    <p>四大核心板块覆盖储能产业全景，26 篇深度文章持续更新中</p>
   </section>
 
   <div class="category-grid">
     <a href="#technologies-section" class="category-card">
       <div class="category-card-icon blue">🔋</div>
       <div class="category-card-label">技术路线</div>
-      <div class="category-card-title">11 条技术路线深度解读</div>
+      <div class="category-card-title">13 条技术路线深度解读</div>
       <div class="category-card-excerpt">从成熟的锂离子电池到前沿的构网型储能、量子电池，全面覆盖储能技术光谱</div>
-      <div class="category-card-count">11 篇文章</div>
+      <div class="category-card-count">13 篇文章</div>
     </a>
     <a href="#policies-section" class="category-card">
       <div class="category-card-icon purple-icon">📋</div>
       <div class="category-card-label">政策研究</div>
       <div class="category-card-title">国内外政策体系解析</div>
-      <div class="category-card-excerpt">中国国家容量电价机制、地方补贴规划、海外政策对比分析</div>
-      <div class="category-card-count">3 篇文章</div>
+      <div class="category-card-excerpt">容量电价机制、七部门新型电池规划、地方补贴规划与项目库整顿、海外政策对比</div>
+      <div class="category-card-count">4 篇文章</div>
     </a>
     <a href="#projects-section" class="category-card">
       <div class="category-card-icon amber">🌍</div>
@@ -172,16 +172,16 @@
       <div class="category-card-icon green">📈</div>
       <div class="category-card-label">市场趋势</div>
       <div class="category-card-title">百GW时代市场洞察</div>
-      <div class="category-card-excerpt">+40% 同比增长，$85亿 H1 融资，1TWh 年装机时代即将到来</div>
-      <div class="category-card-count">2 篇文章</div>
+      <div class="category-card-excerpt">上半年装机首次负增长、4小时系统跌破0.52元/Wh、AIDC 算电协同与企业出海新热点</div>
+      <div class="category-card-count">7 篇文章</div>
     </a>
   </div>
 
   <!-- Filter Bar -->
   <div class="filter-bar" id="filter-bar"></div>
 
-  <!-- Dynamic Articles (rendered by JS with pagination) -->
-  <div id="articles-container"></div>
+  <!-- Pre-rendered article list (replaced at build time; JS enhances with pagination) -->
+  <div id="articles-container"><!-- ARTICLES_PLACEHOLDER --></div>
 
   <!-- Pagination -->
   <div class="pagination" id="pagination"></div>
@@ -255,7 +255,16 @@
       </div>
       <div class="tech-card-title">构网型储能</div>
       <div class="tech-card-desc"><50ms惯量响应 · 黑启动 · 弱电网适配</div>
-      <div class="tech-card-meta"><span class="dot"></span> 2026年6月更新</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年9月更新</div>
+    </a>
+    <a href="articles/technologies/battery-safety.html" class="tech-card">
+      <div class="tech-card-header">
+        <div class="tech-card-icon">🛡️</div>
+        <div class="tech-card-tag">安全 · 生命线</div>
+      </div>
+      <div class="tech-card-title">储能安全与消防</div>
+      <div class="tech-card-desc">热失控机理 · 全氟己酮+细水雾 · GB44240</div>
+      <div class="tech-card-meta"><span class="dot"></span> 2026年9月更新</div>
     </a>
     <a href="articles/technologies/hydrogen.html" class="tech-card">
       <div class="tech-card-header">
@@ -287,7 +296,7 @@
       <p>AI 驱动 · 定期检索更新 · 储能技术前沿洞察</p>
     </div>
     <div class="footer-meta">
-      <span>数据更新：2026年6月</span>
+      <span>数据更新：2026年9月</span>
       <span class="footer-dot"></span>
       <span>内容由 AI 辅助生成</span>
     </div>

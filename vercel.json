@@ -1,0 +1,6 @@
+{
+  "buildCommand": "node build.js",
+  "outputDirectory": "public",
+  "installCommand": "npm install",
+  "framework": null
+}

@@ -902,6 +902,66 @@ body::before {
   padding-bottom: 64px;
 }
 
+/* ---- Figures & images (infographics) ---- */
+.content figure {
+  margin: 32px 0;
+  padding: 0;
+  border: 1px solid var(--border-color, #1e2a44);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--bg-surface, #0a0f1c);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.35), 0 0 0 1px rgba(34,211,238,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.content figure:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.45), 0 0 0 1px rgba(34,211,238,0.18);
+}
+.content figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+.content figcaption {
+  padding: 14px 20px 16px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-muted, #64748b);
+  text-align: center;
+  border-top: 1px solid var(--border-color, #1e2a44);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+}
+.content figcaption::before {
+  content: "▍ ";
+  color: var(--accent, #22d3ee);
+  font-weight: 700;
+}
+/* inline images (non-figure) */
+.content img:not(figure img) {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border-color, #1e2a44);
+  display: block;
+  margin: 24px auto;
+}
+
+.article-page {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+.article-title {
+  max-width: var(--max-w);
+  margin: 48px auto 20px;
+  padding: 0 32px;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  line-height: 1.2;
+  color: var(--heading-color);
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }

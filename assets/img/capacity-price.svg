@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 278" width="1200" height="278" font-family="'Inter','Noto Sans SC',system-ui,sans-serif">
+  <rect width="1200" height="278" fill="#0a0f1c"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#g1)"/>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+  </defs>
+  <text x="60" y="52" font-family="'Inter','Noto Sans SC',system-ui,sans-serif" font-size="30" font-weight="800" fill="#e2e8f0">容量电价：放电时长直接定价</text><text x="60" y="80" font-family="'Inter','Noto Sans SC',system-ui,sans-serif" font-size="18" fill="#64748b">新疆基准 165 元/千瓦·年（峰值时长暂定 6 小时）折算，元/千瓦·年</text>
+  <text x="234" y="134" text-anchor="end" font-size="17" fill="#9fb3c8">2 小时独立储能</text><rect x="250" y="116" width="810" height="28" rx="6" ry="6" fill="#111a2e" stroke="#1e2a44"/><rect x="250" y="116" width="445.50000000000006" height="28" rx="6" fill="url(#g1)"/><text x="707.5" y="135" font-size="16" font-weight="700" fill="#e2e8f0">55</text><text x="234" y="180" text-anchor="end" font-size="17" fill="#9fb3c8">4 小时独立储能</text><rect x="250" y="162" width="810" height="28" rx="6" ry="6" fill="#111a2e" stroke="#1e2a44"/><rect x="250" y="162" width="891.0000000000001" height="28" rx="6" fill="url(#g1)"/><text x="1153" y="181" font-size="16" font-weight="700" fill="#e2e8f0">110</text><text x="234" y="226" text-anchor="end" font-size="17" fill="#9fb3c8">6 小时及以上</text><rect x="250" y="208" width="810" height="28" rx="6" ry="6" fill="#111a2e" stroke="#1e2a44"/><rect x="250" y="208" width="1336.5" height="28" rx="6" fill="url(#g1)"/><text x="1598.5" y="227" font-size="16" font-weight="700" fill="#e2e8f0">165</text>
+</svg>
